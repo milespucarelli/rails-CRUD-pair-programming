@@ -1,0 +1,9 @@
+<%= form_tag heros_path do %>
+    <label>Superhero Name:</label>
+    <%= text_field_tag :'hero[name]' %> <br>
+    <label>Secret Identity:</label>
+    <%= text_field_tag :'hero[secret_identity]' %> <br>
+    <label>Neighborhood: </label>
+    <%= text_field_tag :'hero[neighborhood]' %> <br>
+    <%= submit_tag 'Create Superhero' %>
+<% end %>

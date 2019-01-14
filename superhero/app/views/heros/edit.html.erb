@@ -1,0 +1,12 @@
+<%= form_for @hero do |f| %>
+<%= f.label :name %>:
+<%= f.text_field :name %>
+<br>
+<%= f.label :secret_identity %>:
+<%= f.text_field :secret_identity %>
+<br>
+<%= f.label :neighborhood %>:
+<%= f.text_field :neighborhood %>
+<br>
+<%= f.submit %>
+<% end %>

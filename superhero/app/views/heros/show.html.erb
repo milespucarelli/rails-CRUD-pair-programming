@@ -1,0 +1,9 @@
+<h1><%= @hero.name %></h1>
+
+<ul>
+  <li><%= @hero.secret_identity %></li>
+  <li><%= @hero.neighborhood %></li>
+</ul>
+
+<%= button_to 'Edit Superhero', edit_hero_path, method: :get %>
+<%= button_to 'Delete Superhero', hero_path, method: :delete %>
